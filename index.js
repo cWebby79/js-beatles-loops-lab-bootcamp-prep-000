@@ -3,6 +3,8 @@ function theBeatlesPlay(musicians,instruments) {
   for (let i = 0; i < musicians.length; i++) {
     if (i === 0) {
       return ("musicians[0] " + "instruments[0]");
+    } else {
+      return ("musicians[i] " + "instruments[i]");
     }
   }
 }
